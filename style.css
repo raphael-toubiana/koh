@@ -1,0 +1,44 @@
+.racer-table td {
+  height: 40px;
+  width: 40px;
+}
+.racer-table td.active {
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+#player1-race td.active {
+  background-image: url("images/moundir.png");
+  border-radius: 50%;
+}
+#player2-race td.active {
+  background-image: url("images/teo.png");
+  border-radius: 50%;
+}
+/* Your board style here */
+.finish-line {
+  background-image: url("images/koh.png");
+  background-size: contain;
+}
+
+#denis {
+  width: 200px;
+  height: 200px;
+  display: none;
+  border-radius:50%;
+  margin: 0 auto;
+}
+
+
+#saddenis {
+  width: 200px;
+  height: 200px;
+  display: none;
+  margin: 0 auto;
+}
+.container {
+  background-image: url("https://hdfondsdecran.com/image/201609/1905/ile-azur-ocean-paradis.jpg");
+  height: 400px;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 10px;
+}
